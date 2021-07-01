@@ -1,8 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+node.js 14.17.1 LTS インストール
 
-#### Online Demo: http://crema-react.firebaseapp.com/
+VisualStudioCode(VSCode)インストール
+※ディレクトリでcodeで開くをチェック
 
-#### Online Document: https://crema-react.gitbook.io/docs/
+yarnインストール　※VSCodeでターミナル表示
+npm install -g yarn
+
+実行ポリシーの変更(powershell)
+Set-ExecutionPolicy RemoteSigned
+
+package.jsonがあるディレクトリで右クリック→Codeで開く
+
+package.jsonに記載されたモジュールをインストールする。
+yarn
+
+yarn start
+
+※yarn使い方
+https://qiita.com/akitxxx/items/c97ff951ca31298f3f24
+
+ブラウザで下記にアクセス
+http://localhost:3000
+
 
 ## Available Scripts
 
